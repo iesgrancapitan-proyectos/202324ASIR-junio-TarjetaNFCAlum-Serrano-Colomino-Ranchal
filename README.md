@@ -2,14 +2,16 @@
 
 El entorno se instalará en una máquina con sistema operativo Ubuntu o derivado de Debian.
 
-## Software necesario para el funcionamiento de la página
+## Instalación e implementación del entorno
+
+### Software necesario para el funcionamiento de la página
 
 ```
 sudo apt update
 sudo apt install apache2 php8.2 libapache2-mod-php8.2 php8.2-mysql mariadb-server
 ```
 
-## Crear base de datos e importar datos de archivos SQL
+### Crear base de datos e importar datos de archivos SQL
 
 ```
 sudo mysql -u root
@@ -18,7 +20,7 @@ exit
 sudo mysql -u root grancapitan < proyectonfc.sql
 ```
 
-## Archivo de configuración /etc/apache2/sites-available/proyecto.conf
+### Archivo de configuración /etc/apache2/sites-available/proyecto.conf
 
 ```
 <VirtualHost *:80>
@@ -49,7 +51,7 @@ sudo mysql -u root grancapitan < proyectonfc.sql
 </VirtualHost>
 ```
 
-## Aplicar configuración sitio
+### Aplicar configuración sitio
 
 ```
 sudo a2ensite proyecto.conf
