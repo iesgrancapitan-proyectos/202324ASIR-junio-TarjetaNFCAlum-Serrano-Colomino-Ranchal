@@ -195,11 +195,11 @@
         <h2>Formulario para agregar producto</h2>
         <form id="productForm" action="anadircodigoprocesar.php" method="post" onsubmit="return validateForm()">
             <label for="precio">Precio:</label>
-            <input type="number" id="precio" name="precio" required><br>
+            <input type="number" id="precio" name="precio" autofocus required><br>
 	    <small class="">Introduzca el precio en céntimos.</small><br><br>
 
             <label for="codigo">Código:</label>
-            <input type="number" id="codigo" name="codigo" readonly autofocus required><br><br>
+            <input type="number" id="codigo" name="codigo" readonly required><br><br>
 
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" readonly required><br><br>
