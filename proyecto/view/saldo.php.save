@@ -1,0 +1,2 @@
+<h5 id='letra2' class='mx-auto mt-2 mb-5 letradedia'>Eres el usuario <?php echo $_SESSION['user']['idtarjeta'];?></h5>
+
