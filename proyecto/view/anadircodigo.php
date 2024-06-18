@@ -199,7 +199,7 @@
 	    <small class="">Introduzca el precio en céntimos.</small><br><br>
 
             <label for="codigo">Código:</label>
-            <input type="number" id="codigo" name="codigo" readonly required><br><br>
+            <input type="number" id="codigo" name="codigo" readonly autofocus required><br><br>
 
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" readonly required><br><br>
