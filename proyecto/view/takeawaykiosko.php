@@ -385,7 +385,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['comprar'])) {
         <?php } ?>
 
         <div class="mt-3">
-            <a class='btn btn-primary' href='../index.php'>Inicio</a>
+            <a class='btn btn-primary' href='../index.php'>Volver</a>
         </div>
         <div class="space-between"></div>
         <footer class="py-2 fixed-bottom">
