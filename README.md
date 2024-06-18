@@ -1,5 +1,7 @@
 # Proyecto: Tarjetas de prepago NFC
 
+El entorno se instalará en una máquina con sistema operativo Ubuntu o derivados de Debian.
+
 ## Software necesario para el funcionamiento de la página
 
 ```
