@@ -343,7 +343,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['comprar'])) {
             </div>
         </header>
 
-        <h1>Usted es el usuario <?php echo htmlspecialchars($idTarjeta); ?></h1>
+        <h1>Usted es el usuario <?php echo $_SESSION['user']['email']; ?></h1>
         <p>Saldo: <?php echo number_format($user['saldo'] / 100, 2); ?>€</p>
         <p>Pulse en el recuadro y escanee el código de barras</p>
 
