@@ -20,12 +20,6 @@ exit
 sudo mysql -u root grancapitan < proyectonfc.sql
 ```
 
-### Añadir línea a archivo .bashrc presente en el directorio personal del usuario
-
-```
-export DB_PASSWORD="Root1234$"
-```
-
 ### Archivo de configuración /etc/apache2/sites-available/proyecto.conf
 
 ```
